@@ -20,7 +20,7 @@ func Example() {
 
 	// Lookup what our IPv4 address is on our first public
 	// network interface.
-	publicIPv4Addr := all.NetworkConfig.Config[0].Address
+	publicIPv4Addr := all.PublicIPv4
 
 	fmt.Println(publicIPv4Addr)
 	// Output:
