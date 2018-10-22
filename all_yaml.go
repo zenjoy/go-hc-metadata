@@ -5,7 +5,7 @@ type Metadata struct {
 	LocalIPv4  string   `yaml:"local-ipv4,omitempty"`
 	Hostname   string   `yaml:"hostname,omitempty"`
 	PublicKeys []string `yaml:"public-keys,omitempty"`
-	InstanceId string   `yaml:"instance-id,omitempty"`
+	InstanceId int   `yaml:"instance-id,omitempty"`
 	VendorData string   `yaml:"vendor_data,omitempty"`
 	NetworkSysconfig string   `yaml:"network-sysconfig,omitempty"`
 
